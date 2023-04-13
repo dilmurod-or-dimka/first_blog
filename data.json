@@ -1,0 +1,446 @@
+[
+  {
+    "model": "blog_app.category",
+    "pk": 1,
+    "fields": {
+      "title": "������"
+    }
+  },
+  {
+    "model": "blog_app.category",
+    "pk": 2,
+    "fields": {
+      "title": "�����"
+    }
+  },
+  {
+    "model": "blog_app.category",
+    "pk": 3,
+    "fields": {
+      "title": "�����"
+    }
+  },
+  {
+    "model": "blog_app.recipe",
+    "pk": 1,
+    "fields": {
+      "title": "������ ��� ��������",
+      "created_at": "2023-03-09T05:48:02.485Z",
+      "views": 22,
+      "category": 1,
+      "publish": true,
+      "description": "���������� �������� � �������� ���",
+      "author": 1,
+      "image": "photos/5.jpg"
+    }
+  },
+  {
+    "model": "blog_app.recipe",
+    "pk": 3,
+    "fields": {
+      "title": "����������� � ����������",
+      "created_at": "2023-03-09T06:09:57.233Z",
+      "views": 4,
+      "category": 3,
+      "publish": true,
+      "description": "������ �������",
+      "author": 1,
+      "image": "photos/2.jpg"
+    }
+  },
+  {
+    "model": "blog_app.recipe",
+    "pk": 6,
+    "fields": {
+      "title": "CPU-Z",
+      "created_at": "2023-03-28T19:54:44.779Z",
+      "views": 4,
+      "category": 2,
+      "publish": true,
+      "description": "�����-�� �����",
+      "author": 2,
+      "image": "photos/1.PNG"
+    }
+  },
+  {
+    "model": "blog_app.recipe",
+    "pk": 8,
+    "fields": {
+      "title": "Kefteme",
+      "created_at": "2023-04-03T05:11:41.140Z",
+      "views": 2,
+      "category": 2,
+      "publish": true,
+      "description": "Barhatnie tyagi",
+      "author": 1,
+      "image": "photos/20230130_131723.jpg"
+    }
+  },
+  {
+    "model": "blog_app.recipe",
+    "pk": 9,
+    "fields": {
+      "title": "fkjgfjfg",
+      "created_at": "2023-04-12T06:40:19.019Z",
+      "views": 2,
+      "category": 1,
+      "publish": true,
+      "description": "jfdhg i ijdfgi jfgj iofjdigjsidjsrjijfivd",
+      "author": 2,
+      "image": "photos/output-onlinepngtools-10.png"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 5,
+    "fields": {
+      "author": 2,
+      "recipe": 1,
+      "created_at": "2023-04-12T06:36:10.168Z",
+      "content": "df,smldf"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 6,
+    "fields": {
+      "author": 2,
+      "recipe": 8,
+      "created_at": "2023-04-12T06:36:25.216Z",
+      "content": "����"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 11,
+    "fields": {
+      "author": 1,
+      "recipe": 6,
+      "created_at": "2023-04-12T10:32:15.366Z",
+      "content": "sdfghjkl;erw"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 12,
+    "fields": {
+      "author": 2,
+      "recipe": 8,
+      "created_at": "2023-04-12T10:33:58.676Z",
+      "content": "������"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 14,
+    "fields": {
+      "author": 2,
+      "recipe": 6,
+      "created_at": "2023-04-12T14:30:26.356Z",
+      "content": "kkdffdfdgfdgfddfdsfdjhgjdsfs"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 15,
+    "fields": {
+      "author": 1,
+      "recipe": 1,
+      "created_at": "2023-04-12T19:24:39.079Z",
+      "content": "retgertert"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 16,
+    "fields": {
+      "author": 1,
+      "recipe": 1,
+      "created_at": "2023-04-12T19:24:43.104Z",
+      "content": "ertwret"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 17,
+    "fields": {
+      "author": 1,
+      "recipe": 3,
+      "created_at": "2023-04-12T19:24:49.597Z",
+      "content": "ertewrtet"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 18,
+    "fields": {
+      "author": 1,
+      "recipe": 3,
+      "created_at": "2023-04-12T19:24:52.817Z",
+      "content": "ertwrete"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 19,
+    "fields": {
+      "author": 1,
+      "recipe": 6,
+      "created_at": "2023-04-12T19:25:03.274Z",
+      "content": "retwterrrrrr"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 20,
+    "fields": {
+      "author": 1,
+      "recipe": 8,
+      "created_at": "2023-04-12T19:25:18.615Z",
+      "content": "rewttret"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 21,
+    "fields": {
+      "author": 1,
+      "recipe": 8,
+      "created_at": "2023-04-12T19:25:22.571Z",
+      "content": "ertwtwer"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 22,
+    "fields": {
+      "author": 1,
+      "recipe": 9,
+      "created_at": "2023-04-12T19:25:34.333Z",
+      "content": "erwtrtetew"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 23,
+    "fields": {
+      "author": 1,
+      "recipe": 9,
+      "created_at": "2023-04-12T19:25:37.517Z",
+      "content": "rewttewt"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 25,
+    "fields": {
+      "author": 2,
+      "recipe": 9,
+      "created_at": "2023-04-12T19:26:08.626Z",
+      "content": "dfgsdfffffg"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 26,
+    "fields": {
+      "author": 2,
+      "recipe": 9,
+      "created_at": "2023-04-12T19:26:14.610Z",
+      "content": "sssfdg"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 27,
+    "fields": {
+      "author": 2,
+      "recipe": 1,
+      "created_at": "2023-04-12T19:26:23.223Z",
+      "content": "dfsgfdssss"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 28,
+    "fields": {
+      "author": 2,
+      "recipe": 3,
+      "created_at": "2023-04-12T19:26:31.431Z",
+      "content": "sgdffdg"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 29,
+    "fields": {
+      "author": 2,
+      "recipe": 3,
+      "created_at": "2023-04-12T19:26:35.160Z",
+      "content": "fdsgfgdf"
+    }
+  },
+  {
+    "model": "blog_app.comment",
+    "pk": 30,
+    "fields": {
+      "author": 2,
+      "recipe": 6,
+      "created_at": "2023-04-12T19:26:44.258Z",
+      "content": "dsfffsggggg"
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 1,
+    "fields": {
+      "session_id": null,
+      "user": 2,
+      "recipe": 6
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 2,
+    "fields": {
+      "session_id": null,
+      "user": 2,
+      "recipe": 8
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 3,
+    "fields": {
+      "session_id": null,
+      "user": 2,
+      "recipe": 3
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 4,
+    "fields": {
+      "session_id": null,
+      "user": 2,
+      "recipe": 1
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 5,
+    "fields": {
+      "session_id": "el1m6q2ebjgg4kglf6hud1x57mmaoz7z",
+      "user": null,
+      "recipe": 1
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 6,
+    "fields": {
+      "session_id": null,
+      "user": 1,
+      "recipe": 1
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 7,
+    "fields": {
+      "session_id": "r1xs4yx1oj4kuw7h76uubgv9rze1iwjb",
+      "user": null,
+      "recipe": 1
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 8,
+    "fields": {
+      "session_id": "a6kjgs8f9gh8iikxhnfncfo2x61zdxix",
+      "user": null,
+      "recipe": 1
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 9,
+    "fields": {
+      "session_id": "hcz762aw1gno1ji2tnuj1xaktvqmg3tz",
+      "user": null,
+      "recipe": 1
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 10,
+    "fields": {
+      "session_id": "xmogujxfowaijr7che1u27pf6stoxyyf",
+      "user": null,
+      "recipe": 1
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 11,
+    "fields": {
+      "session_id": "hh53sp9qai9vi2qg2uado9137ekn9nla",
+      "user": null,
+      "recipe": 6
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 12,
+    "fields": {
+      "session_id": null,
+      "user": 1,
+      "recipe": 6
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 13,
+    "fields": {
+      "session_id": "7tzcepez0ui96l1evqrvw22q8lvb99lo",
+      "user": null,
+      "recipe": 6
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 14,
+    "fields": {
+      "session_id": null,
+      "user": 2,
+      "recipe": 9
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 15,
+    "fields": {
+      "session_id": null,
+      "user": 1,
+      "recipe": 9
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 16,
+    "fields": {
+      "session_id": null,
+      "user": 1,
+      "recipe": 3
+    }
+  },
+  {
+    "model": "blog_app.recipecountviews",
+    "pk": 17,
+    "fields": {
+      "session_id": null,
+      "user": 1,
+      "recipe": 8
+    }
+  }
+]
